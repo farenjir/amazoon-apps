@@ -13,10 +13,18 @@ const configs = {
         query: {
           useQuery: true,
           useInfinite: true,
+          useSuspense: true,
           useInfiniteQueryParam: 'nextId',
           options: {
             staleTime: 10000,
           },
+          staleTime: 5 * 60 * 1000,
+          cacheTime: 10 * 60 * 1000,
+          retry: 1,
+          refetchOnWindowFocus: false,
+        },
+        mutation: {
+          retry: false,
         },
       },
     },
@@ -26,4 +34,4 @@ const configs = {
   },
 };
 
-export default configs
+export default configs;
