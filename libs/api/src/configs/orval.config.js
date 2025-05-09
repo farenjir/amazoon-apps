@@ -21,7 +21,7 @@ const configs = {
       },
     },
     input: {
-      target: '../services/index.json',
+      target: '../services/index.yaml',
     },
   },
 };
