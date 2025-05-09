@@ -1,4 +1,3 @@
-import baseConfig from '../../eslint.base.config.mjs';
 import { FlatCompat } from '@eslint/eslintrc';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
