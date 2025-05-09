@@ -1,2 +1,2 @@
 export * from './generated/schemas';
-export * from './generated/api/swaggerPetstore';
+export * from './generated/api';
